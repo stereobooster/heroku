@@ -506,57 +506,60 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
 
-"@sentry/core@4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-4.5.3.tgz#e55a42c694deec903aec2479e4a282d5a7a43878"
+"@sentry/core@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-5.0.0.tgz#49b7186f3c891f275fd90567fb5351f220acc90e"
+  integrity sha512-uX75maPOEccZMndFSQaamRXGl7ifENWnN7/V2qxWEXIp/ni6vYfMBVy8BAiaznksBydjtk20t5MsGdo/vmr4NA==
   dependencies:
-    "@sentry/hub" "4.5.3"
-    "@sentry/minimal" "4.5.3"
-    "@sentry/types" "4.5.3"
-    "@sentry/utils" "4.5.3"
+    "@sentry/hub" "5.0.0"
+    "@sentry/minimal" "5.0.0"
+    "@sentry/types" "5.0.0"
+    "@sentry/utils" "5.0.0"
     tslib "^1.9.3"
 
-"@sentry/hub@4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@sentry/hub/-/hub-4.5.3.tgz#54ce5988ac6dedbe9bba99e2c00f8f26eb677dfe"
+"@sentry/hub@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@sentry/hub/-/hub-5.0.0.tgz#3c15e84352f26fce576dbcfb99d558f0b2d121b1"
+  integrity sha512-R6N9BalC4E1lYEXHpEansl+IYt0+gZhGFjabNARX56Z6YEVA8Ekgm9hQc/Sp6p6k9H4KI8V2FQZowJzduyiAfQ==
   dependencies:
-    "@sentry/types" "4.5.3"
-    "@sentry/utils" "4.5.3"
+    "@sentry/types" "5.0.0"
+    "@sentry/utils" "5.0.0"
     tslib "^1.9.3"
 
-"@sentry/minimal@4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@sentry/minimal/-/minimal-4.5.3.tgz#7b69481df2d61e4b935d067be62a52824190f616"
+"@sentry/minimal@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@sentry/minimal/-/minimal-5.0.0.tgz#14b3ef6493570c67dc8d5579c9b909b7a23e70b9"
+  integrity sha512-Tiy7qNiBzgp8sUwWdDB7Qqucxu09dTQmFtTUPz6Dqi399nCS95RN/wntpwmxBQGXiXRv8H0hbSHMcgsCnPIh4A==
   dependencies:
-    "@sentry/hub" "4.5.3"
-    "@sentry/types" "4.5.3"
+    "@sentry/hub" "5.0.0"
+    "@sentry/types" "5.0.0"
     tslib "^1.9.3"
 
-"@sentry/node@^4.4.1":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@sentry/node/-/node-4.5.3.tgz#f6b57747991c300d4f5f70add673ea3d1e78c873"
+"@sentry/node@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@sentry/node/-/node-5.0.0.tgz#f659d5a81197eeb95d53b1b4b9a16f55327d56f6"
+  integrity sha512-fGNugco4JXiX2n8Nzf35fCsCRn9/hanmZ/QnVAYlnAuFkKpBM0CS0YVmTmhVyBpMCb0QjDl7l6ThYBZ/k1zIZg==
   dependencies:
-    "@sentry/core" "4.5.3"
-    "@sentry/hub" "4.5.3"
-    "@sentry/types" "4.5.3"
-    "@sentry/utils" "4.5.3"
-    "@types/stack-trace" "0.0.29"
+    "@sentry/core" "5.0.0"
+    "@sentry/hub" "5.0.0"
+    "@sentry/types" "5.0.0"
+    "@sentry/utils" "5.0.0"
     cookie "0.3.1"
     https-proxy-agent "2.2.1"
     lru_map "0.3.3"
-    lsmod "1.0.0"
-    stack-trace "0.0.10"
     tslib "^1.9.3"
 
-"@sentry/types@4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-4.5.3.tgz#3350dce2b7f9b936a8c327891c12e3aef7bd8852"
+"@sentry/types@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-5.0.0.tgz#20691849de265021750fae494b6a1328d131bcd0"
+  integrity sha512-6IFaL9BYgZdI9GKOHPcGkyIl77aYp48N+3QNFv4U2e/2cQsw5muI5uslLsIzocD2fBE/DP6m2p7LULP+vj93aw==
 
-"@sentry/utils@4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-4.5.3.tgz#6893fca9fde230b230360779362752e9b5570852"
+"@sentry/utils@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-5.0.0.tgz#3b86adb4d64bf1a4821b3b665d46f38318ecc9ce"
+  integrity sha512-WXOcKodea44SMNZr1XzCewep62maM4BwhSucjWZI7jqXbbK/UMDgTSxEOe/GDD3g6D77zjhYb6bcOznPZxV/8g==
   dependencies:
-    "@sentry/types" "4.5.3"
+    "@sentry/types" "5.0.0"
     tslib "^1.9.3"
 
 "@types/accepts@^1.3.5":
@@ -663,10 +666,6 @@
 "@types/speakeasy@2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@types/speakeasy/-/speakeasy-2.0.2.tgz#153ec3636eea0562209b0a2f1fdf8b479286919b"
-
-"@types/stack-trace@0.0.29":
-  version "0.0.29"
-  resolved "https://registry.yarnpkg.com/@types/stack-trace/-/stack-trace-0.0.29.tgz#eb7a7c60098edb35630ed900742a5ecb20cfcb4d"
 
 "@types/ws@^6.0.0":
   version "6.0.1"
@@ -3071,10 +3070,6 @@ lru_map@0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/lru_map/-/lru_map-0.3.3.tgz#b5c8351b9464cbd750335a79650a0ec0e56118dd"
 
-lsmod@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/lsmod/-/lsmod-1.0.0.tgz#9a00f76dca36eb23fa05350afe1b585d4299e64b"
-
 mailgun-js@0.22.0:
   version "0.22.0"
   resolved "https://registry.yarnpkg.com/mailgun-js/-/mailgun-js-0.22.0.tgz#128942b5e47a364a470791608852bf68c96b3a05"
@@ -4904,7 +4899,7 @@ sshpk@^1.7.0:
     safer-buffer "^2.0.2"
     tweetnacl "~0.14.0"
 
-stack-trace@0.0.10, stack-trace@0.0.x:
+stack-trace@0.0.x:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/stack-trace/-/stack-trace-0.0.10.tgz#547c70b347e8d32b4e108ea1a2a159e5fdde19c0"
 
